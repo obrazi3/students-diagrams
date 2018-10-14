@@ -1,0 +1,10 @@
+@startuml
+|Student|
+start
+:Check hostal available;
+|#AntiqueWhite|Data Base|
+:Get selected documents;
+|Student|
+:See session info;
+stop
+@enduml

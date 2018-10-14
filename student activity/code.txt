@@ -1,0 +1,5 @@
+@startuml
+start
+:See base info\n(available immediately\nupon authorization);
+stop
+@enduml

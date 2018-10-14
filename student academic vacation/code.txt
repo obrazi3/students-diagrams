@@ -1,0 +1,20 @@
+@startuml
+|Student|
+start
+:Click get academic vacation;
+|#AntiqueWhite|Data Base|
+:Add current student to\nvacation collection with\n'pending' status;
+fork
+  |Student|
+  :Show notification;
+  stop
+fork again
+|System|
+:Approve or reject\nvacation request;
+|Data Base|
+-[#black,dotted]-> This action
+may take
+some time;
+:Update vacation status;
+detach
+@enduml
