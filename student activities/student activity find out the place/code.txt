@@ -1,0 +1,14 @@
+@startuml
+|Student|
+start
+:Click 'find out the place of residence';
+if (already live at the hostel?) then (no)
+  :View message: 'you have no place in the hostel';
+  stop
+else (yes)
+  |#AntiqueWhite|Data Base|
+  :Get selected documents;
+  |Student|
+  :View info about place in the hostel;
+stop
+@enduml

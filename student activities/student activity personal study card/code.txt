@@ -1,0 +1,7 @@
+@startuml
+|Student|
+start
+:Click 'view personal study card';
+:View personal study card;
+stop
+@enduml

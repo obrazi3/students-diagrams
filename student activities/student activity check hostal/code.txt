@@ -1,0 +1,14 @@
+@startuml
+|Student|
+start
+:Click 'view the current\nqueue at the hostel';
+if (already live at the hostel?) then (yes)
+  :View corresponding info\nabout hostel;
+  stop
+else (no)
+  |#AntiqueWhite|Data Base|
+  :Get selected documents;
+  |Student|
+  :View student current\nposition in the queue;
+stop
+@enduml

@@ -1,10 +1,10 @@
 @startuml
 |Student|
 start
-:Check hostal available;
+:Click 'view coursework teacher';
 |#AntiqueWhite|Data Base|
 :Get selected documents;
 |Student|
-:See session info;
+:View corresponding\ncourcework teacher info;
 stop
 @enduml
