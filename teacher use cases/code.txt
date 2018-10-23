@@ -1,0 +1,6 @@
+@startuml 
+:Teacher: -d->(Mark students) 
+:Teacher: -d->(Search student by last name) 
+:Teacher: -d->(View personal card) 
+:Teacher: -d->(View group list) 
+@enduml
