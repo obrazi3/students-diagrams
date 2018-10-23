@@ -1,0 +1,6 @@
+@startuml 
+User <|-d- Student 
+User <|-d- System 
+User <|-d- Teacher 
+:User: -u->(Logout) 
+@enduml

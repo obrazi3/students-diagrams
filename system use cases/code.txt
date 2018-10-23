@@ -1,0 +1,6 @@
+@startuml 
+:System: -d->(Assign a coursework teacher to students) 
+:System: -d->(Determine the coefficients for grades) 
+:System: -d->(Search student by last name) 
+:System: -d->(withdraw sheet for school subject) 
+@enduml
