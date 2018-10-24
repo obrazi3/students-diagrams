@@ -1,0 +1,10 @@
+@startuml
+|Teacher|
+start
+:Type student name in search input;
+|#AntiqueWhite|Data Base|
+:Fetch documents from students\ncollection that satisfy corresponding name;
+|Teacher|
+:Show corresponding students;
+stop
+@enduml

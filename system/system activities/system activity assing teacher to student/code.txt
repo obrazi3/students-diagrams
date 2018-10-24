@@ -1,0 +1,19 @@
+@startuml
+|System|
+start
+:Type student name in search input;
+|Data Base|
+:Fetch documents that satisfy typed name;
+|System|
+:Choose specific student;
+:Click 'assign coursework\nteacher to student';
+|#AntiqueWhite|Data Base|
+:Fetch documents from teachers collection;
+|System|
+:Assign specific teacher to the student;
+|Data Base|
+:Update corresponding student document;
+|System|
+:Show notification;
+stop
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+|System|
+start
+:Type student name in search input;
+|#AntiqueWhite|Data Base|
+:Fetch documents that satisfy corresponding name;
+|System|
+:Show corresponding students;
+stop
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+|Teacher|
+start
+:Click on 'Subjects' dashbord;
+|#AntiqueWhite|Data Base|
+:Fetch documents\nfrom subjects collection;
+|Teacher|
+:Choose specific subject;
+|Data Base|
+:Get groups of students\nfor corresponding subject;
+|Teacher|
+:Click 'mark students' on specific group;
+if (teacher of this group?) then(no)
+  :Show message 'You are not a teacher\nof this group!';
+  stop
+else (yes)
+  :Mark students;
+  |Data Base|
+  :Update corresponding students;
+  |Teacher|
+  :Show notification;
+  stop
+@enduml

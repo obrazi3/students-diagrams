@@ -1,0 +1,12 @@
+@startuml
+|System|
+start
+:Click on 'Subjects' dashbord;
+|#AntiqueWhite|Data Base|
+:Fetch documents from subjects collection;
+|System|
+:Choose specific subjecet;
+:Click 'export to excel';
+:Download excel document;
+stop
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+|Teacher|
+start
+:Click on 'Students' dashbord;
+|#AntiqueWhite|Data Base|
+:Fetch documents from students collection;
+|Teacher|
+:Choose specific student;
+:Click 'view personal card';
+:See personal card;
+stop
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+|Teacher|
+start
+:Click on 'Groups' dashbord;
+|#AntiqueWhite|Data Base|
+:Fetch documents\nfrom groups collection;
+|Teacher|
+:View groups list;
+:Click on specific group;
+:View students list of corresponding group;
+stop
+@enduml
